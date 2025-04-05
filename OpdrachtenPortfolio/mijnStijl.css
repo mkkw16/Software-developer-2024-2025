@@ -1,0 +1,29 @@
+table, th, td{
+
+}
+
+table{
+  border:1px solid darkgreen;
+  background-color: #accd07;
+  width: 700px;
+}
+
+th{
+  border:1px solid white;
+  background-color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  border:3px solid white;
+  background-color: #accd07;
+  padding: 10px;
+  color: white;
+  border-radius: 7px;
+}
+
+td:hover {
+  background-color: gray;
+  cursor: pointer;
+} 

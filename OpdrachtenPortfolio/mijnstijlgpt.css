@@ -1,0 +1,54 @@
+/* General styling for the large circle */
+.outer-circle {
+  width: 600px;
+  height: 600px;
+  background-color: azure;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative; /* To position child elements inside */
+}
+
+/* Title styling */
+.title {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+}
+
+/* Common styles for all small circles */
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center; /* Centers text horizontally */
+  align-items: center; /* Centers text vertically */
+  font-weight: bold;
+  border: 2px solid black;
+  position: absolute; /* Allows positioning inside the outer circle */
+}
+
+/* Specific positions and colors for the smaller circles */
+.box1 {
+  background-color: orange;
+  top: 50px; /* Adjusted to match image */
+  left: 70px;
+}
+
+.box2 {
+  background-color: yellowgreen;
+  top: 240px; /* Adjusted to match image */
+  left: 240px;
+}
+
+.box3 {
+  background-color: slateblue;
+  bottom: 50px; /* Adjusted to match image */
+  right: 70px;
+}
