@@ -1,0 +1,97 @@
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+
+p {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 40%;
+    height: 30px;
+margin-left: 340px;
+}
+
+
+.divBasis {
+    width: 700px;
+    background-color: #e8f8fc;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.adress {
+    display: flex;
+    gap: 10px;
+}
+
+.adress div input {
+    width: 90%;
+}
+
+
+.checks {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.checks label {
+    font-weight: bold;
+}
+
+.checks select {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #c2c2c2;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 14px;
+    appearance: none;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    margin-left: 5px;
+    width: auto;
+}
+
+
+textarea {
+    height: 300px;
+    resize: none;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+
+.aanbevelingen {
+    margin-top: 20px;
+}
+
+.aanbevelingen label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+

@@ -1,0 +1,53 @@
+.outer-circle {
+  width: 600px;
+  height: 600px;
+  background-color: azure;
+  border: 2px solid black;
+  border-radius: 50%;
+  margin: 50px auto;
+  position: relative;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  position: absolute;
+}
+
+
+.child-one {
+  background-color: orange;
+  border: 2px solid black;
+  top: 10%;
+  left: 15%;
+}
+
+.child-two {
+  background-color: yellowgreen;
+  border: 2px solid black;
+  top: 40%;
+  left: 40%;
+}
+
+.child-three {
+  background-color: slateblue;
+  border: 2px solid black;
+  bottom: 10%;
+  right: 15%;
+}
+
+.title {
+  position: absolute;
+  top: 5%;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+}

@@ -1,0 +1,59 @@
+	/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+/* Styling for sections */
+section {
+    padding: 60px;
+    height: 100vh;
+}
+
+#home {
+    background-color: lightcoral;
+}
+
+#about {
+    background-color: lightblue;
+}
+
+#services {
+    background-color: lightgreen;
+}
+
+#contact {
+    background-color: lightgoldenrodyellow;
+}

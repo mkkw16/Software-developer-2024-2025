@@ -1,0 +1,17 @@
+.col{
+	height: 800px;
+	border: 1px solid black;
+    background-color: azure;
+}
+.col1{
+	height: 50px;
+    background-color: gray;
+}
+.col2{
+	height: 50px;
+	width: 110%;
+    background-color: blueviolet;
+}
+.container{
+	border: 1px solid black;
+}
